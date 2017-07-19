@@ -1,0 +1,100 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	opacity:.7;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ff0000;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#table_content{
+	width: 30%;
+	height: 180px;
+	margin-left:60%;
+	margin-top: 10px;
+	
+	
+}
+
+#container{
+	
+	background-image: url("4.jpg");
+	background-size:     cover; 
+	background-repeat:   no-repeat;
+    opacity: 0.1s; 
+	
+}
+
+
+input[type=text],input[type=password] {
+	
+    border-radius:8px; height: 30px; width: 200px;transition: all 0.5s; 
+}
+input[type=text]:hover,input[type=password]:hover {
+    border-radius:8px; height: 50px; width: 200px;
+}
+
+input[type=submit] {
+	margin-left: 30%;
+	width:70px;
+	height:30px;
+    padding-left:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+	background-color: blue;
+	transition: all 2s;
+}
+
+.aaa {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 10px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	margin-top:3%;
+    
+    border-radius:5px;
+    transition: all 1s;
+    margin-left: 85%;
+}
+
+.aaa:hover, .aaa:active {
+	
+	
+	color: white;
+    padding: 10px 10px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	width:5%;
+	height:10%;
+    background-color: red;
+	
+}
+table{
+	float:right;
+	width:33%;
+}
